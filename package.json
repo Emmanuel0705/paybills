@@ -1,0 +1,36 @@
+{
+  "name": "paybills",
+  "version": "1.0.0",
+  "description": "An ecommerce goods marketing app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "keywords": [
+    "Ecommerce"
+  ],
+  "author": "Oluwatobi Emmanuel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-validator": "^6.4.0",
+    "firebase": "^7.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.11",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.4.2",
+    "paystack": "^2.0.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "^10",
+    "npm": "^6"
+  }
+}
